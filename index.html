@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="contact">
+        <img src="./images/envelope.svg" alt="envelope" class="image" />
+
+        <!-- heading -->
+        <h1>Let's get in touch</h1>
+        <article class="underline"></article>
+        <!-- form starting -->
+        <form class="form">
+          <article class="form-row">
+            <label for="name">Name</label
+            ><input type="text" name="name" id="name" placeholder="john dove" />
+          </article>
+          <article class="form-row">
+            <label for="address">Email Address</label
+            ><input
+              type="email"
+              name="address"
+              id="address"
+              placeholder="john@gmail.com"
+            />
+          </article>
+          <article class="form-row">
+            <label for="department">Department</label>
+            <select name="department" id="department">
+              <option value="select a department">Select a Department</option>
+              <option value="technical">Technical</option>
+              <option value="Business">Business</option>
+              <option value="Promotional">Promotional</option>
+            </select>
+          </article>
+          <article class="form-row">
+            <label for="meassage">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              class="text-area"
+              placeholder="Enter the text"
+            ></textarea>
+          </article>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
